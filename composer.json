@@ -66,7 +66,7 @@
     }
   },
   "autoload": {
-    "classmap": ["vendor/*/*/scripts/"]
+    "classmap": ["vendor/uo/simplesamlphp-config/scripts"]
   },
   "scripts": {
     "pre-update-cmd": [
