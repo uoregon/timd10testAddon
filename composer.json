@@ -66,12 +66,7 @@
     }
   },
   "autoload": {
-    "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php"
-    ],
-    "psr-0": {
-      "UoDrupalComposerManaged": "scripts"
-    }
+    "classmap": ["vendor/uo/*/scripts/"]
   },
   "scripts": {
     "pre-update-cmd": [
