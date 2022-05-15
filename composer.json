@@ -66,7 +66,9 @@
     }
   },
   "autoload": {
-    "upstream-configuration/scripts/ComposerScripts.php"
+    "classmap": [
+      "upstream-configuration/scripts/ComposerScripts.php"
+    ]
   },
   "scripts": {
     "pre-update-cmd": [
