@@ -69,13 +69,16 @@
     "classmap": [
       "upstream-configuration/scripts/ComposerScripts.php"
     ],
-    "psr-0": [
+    "psr-0": {
       "UoDrupalComposerManaged": "scripts"
-    ]
+    }
   },
   "scripts": {
     "pre-update-cmd": [
       "DrupalComposerManaged\\ComposerScripts::preUpdate"
+    ],
+    "post-update-cmd": [
+      "UoDrupalComposerManaged\\UoComposerScripts::postUpdate"
     ],
     "upstream-require": [
       "DrupalComposerManaged\\ComposerScripts::upstreamRequire"
