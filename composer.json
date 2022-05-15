@@ -68,9 +68,6 @@
   "autoload": {
     "classmap": [
       "upstream-configuration/scripts/ComposerScripts.php"
-    ],
-    "psr-0": [
-      "UoDrupalComposerManaged": "scripts"
     ]
   },
   "scripts": {
