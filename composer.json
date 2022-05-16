@@ -67,12 +67,16 @@
   },
   "autoload": {
     "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php"
+      "upstream-configuration/scripts/ComposerScripts.php",
+      "vendor/uo/simplesamlphp-config/scripts/UoComposerScripts.php"
     ]
   },
   "scripts": {
     "pre-update-cmd": [
       "DrupalComposerManaged\\ComposerScripts::preUpdate"
+    ],
+    "post-update-cmd": [
+      "UoDrupalComposerManaged\\UoComposerScripts::postUpdate"
     ],
     "upstream-require": [
       "DrupalComposerManaged\\ComposerScripts::upstreamRequire"
