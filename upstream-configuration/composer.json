@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "uo/simplesamlphp-config": "1.0.4-beta5",
+    "uo/simplesamlphp-config": "1.0.4-beta9",
     "uo/uo_banner": "^22",
     "uo/uo_calendar": "^22",
     "uo/uo_core": "^22",
