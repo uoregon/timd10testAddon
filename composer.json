@@ -68,7 +68,7 @@
   "autoload": {
     "classmap": [
       "upstream-configuration/scripts/ComposerScripts.php",
-      "vendor/*/*/scripts/"
+      "scripts/"
     ]
   },
   "scripts": {
