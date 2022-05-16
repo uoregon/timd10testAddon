@@ -101,17 +101,6 @@ class ComposerScripts {
     }
   }
 
-  /*
-  *
-  * Run postUpdate to refresh symlinks for simple saml that may have been rolled over.
-  *
-  */
-  public static function postUpdate(Event $event) {
-
-    $cmd = "composer update $versionlessPackagesParam";
-    passthru($cmd);
-  }
-
   /**
    * Update the composer.lock file and so on.
    *
