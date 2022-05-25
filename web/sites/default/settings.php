@@ -17,6 +17,22 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 include __DIR__ . "/settings.pantheon.php";
 
 /**
+ * If there is a uo settings file, then include it
+ */
+$uo_settings = __DIR__ . "/settings.uo.php";
+if (file_exists($uo_settings)) {
+  include $uo_settings;
+}
+
+/**
+ * If there is a custom settings file, then include it
+ */
+$custom_settings = __DIR__ . "/settings.custom.php";
+if (file_exists($custom_settings)) {
+  include $custom_settings;
+}
+
+/**
  * Skipping permissions hardening will make scaffolding
  * work better, but will also raise a warning when you
  * install Drupal.
