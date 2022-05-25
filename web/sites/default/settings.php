@@ -17,7 +17,15 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 include __DIR__ . "/settings.pantheon.php";
 
 /**
- * If there is a uo settings file, then include it
+ * Include the UO-specific settings file.
+ *
+ * n.b. The settings.uo.php file makes some changes
+ *      that affect all environments that this site
+ *      exists in and are global to websites that are
+ *      within the University of Oregon's Drupal Cloud
+ *      Hosting service.  Always include this file,
+ *      even in a local development environment, to
+ *      ensure the site settings remain consistent.
  */
 $uo_settings = __DIR__ . "/settings.uo.php";
 if (file_exists($uo_settings)) {
@@ -25,7 +33,10 @@ if (file_exists($uo_settings)) {
 }
 
 /**
- * If there is a custom settings file, then include it
+ * If there is a custom settings file, then include it.
+ * This file can be used for site-specific settings
+ * that will affect all environments and local
+ * development..
  */
 $custom_settings = __DIR__ . "/settings.custom.php";
 if (file_exists($custom_settings)) {
