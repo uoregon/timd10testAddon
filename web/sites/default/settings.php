@@ -36,7 +36,7 @@ if (file_exists($uo_settings)) {
  * If there is a custom settings file, then include it.
  * This file can be used for site-specific settings
  * that will affect all environments and local
- * development..
+ * development.
  */
 $custom_settings = __DIR__ . "/settings.custom.php";
 if (file_exists($custom_settings)) {
