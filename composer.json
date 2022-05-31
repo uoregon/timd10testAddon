@@ -79,7 +79,8 @@
   },
   "autoload": {
     "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php"
+      "upstream-configuration/scripts/ComposerScripts.php",
+      "vendor/uo/simplesamlphp-config/scripts/UoComposerScripts.php"
     ]
   },
   "scripts": {
@@ -94,7 +95,6 @@
     ]
   },
   "scripts-descriptions": {
-    "UoDrupalComposerManaged\\UoComposerScripts::postUpdate": "This calls postUpdate hooks for UO Drupal Composer Managed projects.",
     "upstream-require": "Add a dependency to an upstream. See https://pantheon.io/docs/create-custom-upstream for information on creating custom upstreams."
   },
   "config": {
