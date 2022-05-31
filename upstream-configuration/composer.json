@@ -75,5 +75,5 @@
     "classmap": [
       "vendor/uo/simplesamlphp-config/scripts/UoComposerScripts.php"
     ]
-  },
+  }
 }
