@@ -79,8 +79,7 @@
   },
   "autoload": {
     "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php",
-      "vendor/uo/simplesamlphp-config/scripts/UoComposerScripts.php"
+      "upstream-configuration/scripts/ComposerScripts.php"
     ]
   },
   "scripts": {
