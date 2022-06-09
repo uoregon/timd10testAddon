@@ -79,8 +79,7 @@
   },
   "autoload": {
     "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php",
-      "vendor/uo/simplesamlphp-config/scripts/UoComposerScripts.php"
+      "upstream-configuration/scripts/ComposerScripts.php"
     ]
   },
   "scripts": {
@@ -95,7 +94,8 @@
     ]
   },
   "scripts-descriptions": {
-    "upstream-require": "Add a dependency to an upstream. See https://pantheon.io/docs/create-custom-upstream for information on creating custom upstreams."
+    "upstream-require": "Add a dependency to an upstream. See https://pantheon.io/docs/create-custom-upstream for information on creating custom upstreams.",
+    "UoComposerScripts::postUpdate": "runs a few scripts after install or update to help make sure simplesamlphp will run correctly."
   },
   "config": {
     "preferred-install": "dist",
