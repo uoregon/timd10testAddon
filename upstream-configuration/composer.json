@@ -46,7 +46,7 @@
     "drupal/inline_entity_form": "^2.0@RC",
     "drupal/insert_view_adv": "^2.0@alpha",
     "drupal/libraries": "^4.0",
-    "drupal/linkchecker": "^1.0@beta",
+    "drupal/linkchecker": "^2.0@alpha",
     "drupal/linkit": "^6.0@beta",
     "drupal/media_entity_browser": "^2.0@alpha",
     "drupal/menu_block": "^1.8",
