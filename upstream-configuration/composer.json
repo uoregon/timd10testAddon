@@ -45,7 +45,7 @@
     "drupal/honeypot": "^2.1",
     "drupal/inline_entity_form": "^2.0@RC",
     "drupal/insert_view_adv": "^2.0@alpha",
-    "drupal/libraries": "^3.0@beta",
+    "drupal/libraries": "^4.0",
     "drupal/linkchecker": "^1.0@beta",
     "drupal/linkit": "^6.0@beta",
     "drupal/media_entity_browser": "^2.0@alpha",
