@@ -87,13 +87,11 @@
       "DrupalComposerManaged\\ComposerScripts::preUpdate"
     ],
     "post-update-cmd": [
+      "DrupalComposerManaged\\ComposerScripts::postUpdate",
       "UoDrupalComposerManaged\\UoComposerScripts::postUpdate"
     ],
     "post-install-cmd": [
       "UoDrupalComposerManaged\\UoComposerScripts::postUpdate"
-    ],
-    "upstream-require": [
-      "DrupalComposerManaged\\ComposerScripts::upstreamRequire"
     ]
   },
   "scripts-descriptions": {
