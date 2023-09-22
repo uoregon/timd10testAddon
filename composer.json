@@ -36,6 +36,7 @@
     "drupal/core-recommended": "^9.2",
     "pantheon-systems/drupal-integrations": "^9",
     "cweagans/composer-patches": "^1.7",
+    "rlanvin/php-rrule": "^2",
     "drush/drush": "^11 || ^12"
   },
   "require-dev": {
