@@ -21,7 +21,7 @@
     "drupal/calendar": "^1.0@beta",
     "drupal/captcha": "^2.0",
     "drupal/cdn": "^4.0",
-     "drupal/content_access": "^2.0",
+    "drupal/content_access": "^2.0",
     "drupal/context": "^5.0@RC",
     "drupal/ctools": "^4.0",
     "drupal/diff": "^1.1",
