@@ -59,7 +59,7 @@
     "drupal/recaptcha": "^3.2",
     "drupal/redirect": "^1.9",
     "drupal/simple_sitemap": "^4.1",
-    "drupal/simplesamlphp_auth": "4.x-dev@dev",
+    "drupal/simplesamlphp_auth": "^4.0@RC",
     "drupal/token": "^1.12",
     "drupal/token_filter": "^2.0",
     "drupal/token_views_filter": "^2.0",
