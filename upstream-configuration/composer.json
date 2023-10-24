@@ -15,7 +15,7 @@
     "uo/uo_core": "^23",
     "uo/uo_cosmic_theme": "^23",
     "uo/uo_edit_suite": "^23",
-    "uo/uo_maps":"21.01",
+    "uo/uo_maps":"^23",
     "drupal/fakeobjects": "^1.2",
     "drupal/block_class": "^2.0",
     "drupal/calendar": "^1.0@beta",
