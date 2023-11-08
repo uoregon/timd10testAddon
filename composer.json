@@ -79,7 +79,8 @@
   },
   "autoload": {
     "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php"
+      "upstream-configuration/scripts/ComposerScripts.php",
+      "upstream-configuration/scripts/UpstreamChange.php"
     ]
   },
   "scripts": {
