@@ -85,7 +85,7 @@
   },
   "scripts": {
     "pre-update-cmd": [
-      "UoDrupalComposerManaged\\UpstreamChange::changeUpstream",
+      "UoDrupalComposer\\UpstreamChange::changeUpstream",
       "DrupalComposerManaged\\ComposerScripts::preUpdate",
       "rm -rf vendor",
       "composer dump-autoload"

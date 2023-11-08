@@ -7,7 +7,7 @@
  * Custom Composer scripts and implementations of Composer hooks.
  */
 
-namespace UoDrupalComposerManaged;
+namespace UoDrupalComposer;
 
 use Composer\IO\IOInterface;
 use Composer\Script\Event;
