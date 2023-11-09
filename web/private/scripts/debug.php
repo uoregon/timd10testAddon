@@ -20,5 +20,7 @@ passthru('terminus site:info uo-ssem-ssem --fields=upstream 2>&1');
 passthru('terminus site:info '.$env['site_id'].' --fields=upstream 2>&1');
 passthru('terminus site:info '.$env['PANTHEON_SITE_NAME'].' --fields=upstream 2>&1');
 passthru('composer about 2>&1');
+passthru('git version 2>&1');
+
 
 //ttimtestmergeupstream
