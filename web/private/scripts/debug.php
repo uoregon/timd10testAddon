@@ -15,3 +15,9 @@ foreach ($env as $key => $value) {
 }
 print_r($env);
 echo "\n-------- END ENVIRONMENT ----------\n";
+
+passthru('terminus site:info uo-ssem-ssem --fields=upstream 2>&1');
+passthru('terminus site:info '.$env['site_id'].' --fields=upstream 2>&1');
+passthru('terminus site:info '.$env['PANTHEON_SITE_NAME'].' --fields=upstream 2>&1');
+
+//ttimtestmergeupstream
