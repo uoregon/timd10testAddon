@@ -1,0 +1,10 @@
+# WARNING: To override these values, please use your sites pantheon.yml file located in the root folder. Pantheon.upstream.yml is reserved for common upstream settings.
+api_version: 1
+web_docroot: true
+workflows:
+  deploy:
+    after:
+      -
+        type: webphp
+        description: 'Run composer prepare-for-pantheon'
+        script: private/scripts/deploy_product/UpstreamChange.php
