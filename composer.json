@@ -79,16 +79,14 @@
   },
   "autoload": {
     "classmap": [
-      "upstream-configuration/scripts/ComposerScripts.php",
-      "upstream-configuration/scripts/UpstreamChange.php"
+      "upstream-configuration/scripts/ComposerScripts.php"
     ]
   },
   "scripts": {
     "pre-update-cmd": [
+      "DrupalComposerManaged\\ComposerScripts::preUpdate",
       "rm -rf vendor",
-      "composer dump-autoload",
-      "UoDrupalComposer\\UpstreamChange::changeUpstream",
-      "DrupalComposerManaged\\ComposerScripts::preUpdate"
+      "composer dump-autoload"
     ],
     "post-update-cmd": [
       "DrupalComposerManaged\\ComposerScripts::postUpdate",
