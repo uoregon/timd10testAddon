@@ -4,11 +4,11 @@ web_docroot: true
 workflows:
   # Site Creation
   deploy_product:
-    after:
+    before:
       - type: webphp
         description: git commnds
         script: private/scripts/deploySSEM.php
-    after:
-      - type: webphp
-        description: Dump debugging output
-        script: private/scripts/debug.php
+#    after:
+#      - type: webphp
+#        description: Dump debugging output
+#        script: private/scripts/debug.php
