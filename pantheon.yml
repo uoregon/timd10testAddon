@@ -6,4 +6,4 @@ workflows:
     after:
       - type: webphp
         description: Post to Slack after site creation
-        script: private/scripts/UpstreamChange.php
+        script: upstream-configuration/scripts/UpstreamChange.php
