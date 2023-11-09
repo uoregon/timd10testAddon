@@ -13,5 +13,10 @@ foreach ($env as $key => $value) {
     $env[$key] = '[REDACTED]';
   }
 }
-print_r($env);
+//print_r($env);
 echo "\n-------- END ENVIRONMENT ----------\n";
+
+//chdir(getenv('HOME') . '/code');
+chdir('/code');
+print "\n====== Running 'composer update' ======\n\n";
+passthru('composer update 2>&1');

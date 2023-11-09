@@ -6,3 +6,7 @@ echo "NOT Import of configuration complete.\n";
 echo "Rebuilding cache.\n";
 passthru('drush cr');
 echo "Rebuilding cache complete.\n";
+chdir(getenv('HOME') . '/code');
+
+print "\n====== Running 'composer update' ======\n\n";
+passthru('composer update 2>&1');
