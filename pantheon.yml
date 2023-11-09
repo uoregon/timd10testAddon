@@ -2,9 +2,9 @@
 api_version: 1
 web_docroot: true
 workflows:
-  deploy:
+  # Site Creation
+  deploy_product:
     after:
-      -
-        type: webphp
-        description: 'Run composer prepare-for-pantheon'
+      - type: webphp
+        description: Post to Slack after site creation
         script: private/scripts/deploy_product/UpstreamChange.php
