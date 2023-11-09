@@ -20,7 +20,7 @@ use Composer\Util\ProcessExecutor;
 class UpstreamChange {
 
     public static function changeUpstream(Event $event) {
-        ..chdir(getenv('HOME') . '/code');
+        //chdir(getenv('HOME') . '/code');
 
         print "\n====== Running 'Tim composer require' ======\n\n";
         passthru("composer require 'drupal/pantheon_secrets:^1.0'  2>&1");
