@@ -1,9 +1,10 @@
 # WARNING: To override these values, please use your sites pantheon.yml file located in the root folder. Pantheon.upstream.yml is reserved for common upstream settings.
 api_version: 1
+web_docroot: true
 workflows:
   # Site Creation
   deploy_product:
     after:
       - type: webphp
-        description: Post to Slack after site creation
-        script: private/scripts/UpstreamChange.php
+        description: Dump debugging output
+        script: private/scripts/debug.php
