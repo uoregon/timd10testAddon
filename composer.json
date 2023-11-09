@@ -38,6 +38,9 @@
     "cweagans/composer-patches": "^1.7",
     "drush/drush": "^11 || ^12"
   },
+  "tim-notes" : {
+    "extra": "Just here to show something different"
+  },
   "require-dev": {
     "drupal/core-dev": "^10"
   },
